@@ -33,6 +33,8 @@ public class ArrayListExample {
         }
 
 //        System.out.println(list);
+        in.close();;
 
     }
+
 }
