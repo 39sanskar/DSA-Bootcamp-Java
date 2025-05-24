@@ -59,6 +59,6 @@ public class MultiDimension {
              */
             System.out.println(Arrays.toString(a));
         }
-
+        in.close();
     }
 }
