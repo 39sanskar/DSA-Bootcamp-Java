@@ -1,7 +1,5 @@
 package com.sanskar;
-
 import java.util.Arrays;
-
 public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {2, -32, 0, 78, 1};
@@ -9,7 +7,6 @@ public class SelectionSort {
         System.out.println(Arrays.toString(arr));
 
     }
-
     static void selection(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             // find the maximum item in the remaining array and swap with correct index.
@@ -28,13 +25,11 @@ public class SelectionSort {
              */
         }
     }
-
     static void swap(int[] arr, int first, int second) {
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
     }
-
     static int getMaxIndex(int[] arr, int start, int end) {
         int max = start;
 
