@@ -2,7 +2,6 @@
   Find the minimum element from the unsorted part of the array and place it at
   its correct index in the sorted part.
  */
-
 package com.sanskar;
 import java.util.Arrays;
 public class SelectionSort2 {
@@ -41,6 +40,7 @@ public class SelectionSort2 {
         arr[second] = temp;
     }
 }
+
 
 /*
 Input:
