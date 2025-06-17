@@ -30,5 +30,4 @@ public class InsertionSort {
         arr[first] = arr[second];
         arr[second] = temp;
     }
-
 }

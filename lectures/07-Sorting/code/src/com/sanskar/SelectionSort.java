@@ -17,7 +17,7 @@ public class SelectionSort {
             /*
              initially if i=0; that we need to find the maximum item in the entire array.
              */
-            int maxIndex = getMaxIndex(arr, 0,last);
+            int maxIndex = getMaxIndex(arr, 0, last);
             /*
               Create a function getMaxIndex and pass array, start index, last index.
              */
@@ -46,3 +46,16 @@ public class SelectionSort {
         return max;
     }
 }
+
+
+/*
+ Time Complexity
+ Worst Case: O(N^2)
+ Best Case: O(N^2) it is finding the maximum element in the array.
+ stable : No
+ It performs will on small lists/ arrays
+ idea => Select an element and put at its right position.
+ there are two ways-
+ 1. Here it select minimum element  index and put at it correct index.
+ 2. Here it select maximum element index and put at it correct index.
+ */
