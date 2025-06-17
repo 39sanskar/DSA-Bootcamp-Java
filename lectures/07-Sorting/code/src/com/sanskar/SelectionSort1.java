@@ -32,7 +32,6 @@ public class SelectionSort1 {
             // swap max element with element at last
             swap(arr, maxIndex, last);
         }
-
     }
     // Swap helper method
     static void swap(int[] arr, int first, int second) {
@@ -41,6 +40,7 @@ public class SelectionSort1 {
         arr[second] = temp;
     }
 }
+
 
 /*
 Output => [-32, 0, 1, 2, 78]
