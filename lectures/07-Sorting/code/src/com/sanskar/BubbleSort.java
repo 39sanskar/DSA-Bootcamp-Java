@@ -5,9 +5,7 @@ public class BubbleSort {
         int[] arr = {-1, 7, -32, 0, 89};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
-
     }
-
     static void bubble(int[] arr) {
         boolean swapped;
         /*
@@ -34,7 +32,8 @@ public class BubbleSort {
             // if you did not swap for a particular value of i, it means the array is sorted hence stop the program.
             if (!swapped) { // !false = true
                 /*
-                 if did not swap you should break.
+                 if did not swap you should break.(when the swap value is false means the no swap occur in that case
+                   the statement will be true  and it will break)
                  */
                 break;
 
@@ -46,3 +45,12 @@ public class BubbleSort {
         }
     }
 }
+
+/*
+ Notes => Bubble sort Also known as -->exchange sort, sinking sort.
+ idea: it is in every pass largest element is coming at the end.
+ Time Complexity
+ Best case: O(N)
+ Worst Case: O(N^2)
+ Space Complexity : O(1) // Constant (no extra space required)
+ */
